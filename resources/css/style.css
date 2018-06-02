@@ -5,10 +5,6 @@ html {
   font-size: 16px;
 }
 
-body {
-  font: sans-serif;
-}
-
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
