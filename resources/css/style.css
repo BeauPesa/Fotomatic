@@ -352,7 +352,7 @@ header .mobile {
 }
 
 #quotes-section {
-
+  /*margin: 1%;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -406,13 +406,19 @@ footer {
 }
 
 footer .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-left: 32px;
+  padding-right: 32px;
   color: white;
   display: flex;
-  font-size: .75rem;
-
+  font-family: "Roboto-regular";
+  font-size: 12px;
 }
 
-footer .copyright {
+.footer .copyright {
   flex-grow: 1;
 }
 
