@@ -18,6 +18,8 @@ body {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
+  position: relative;
+  bottom: 15px;
 }
 
 .image-container {
@@ -127,6 +129,9 @@ header .mobile {
 }
 
 #sign-up-cta {
+  position: relative;
+  top: 171px;
+  left: 100px;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
@@ -381,11 +386,15 @@ header .mobile {
 }
 
 @media only screen and (max-width: 760px) {
+  #quotes-section {
+    height: 100px; 
+  }
+
   #quotes-section content {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
